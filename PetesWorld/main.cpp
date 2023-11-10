@@ -24,7 +24,7 @@ int main()
 	}
 
 
-	std::cout << "Pick a letter from A to D or W to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to D or V to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -145,6 +145,29 @@ int main()
 
 	}
 
+	if (letter == 'v' || letter == 'V') //Cialan
+	{
+		if (region == 1)
+		{
+			std::cout << "Venezuela, Virgin Island" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Vs in Africa" std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanuata" << std::endl;
+		}
+	}
 	if (letter == 'w' || letter == 'W') //written by Cialan
 	{
 		if (region == 1)
