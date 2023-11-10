@@ -85,6 +85,31 @@ int main()
 			std::cout << "There are no Bs in rest of the world" << std::endl;
 		}
 	}
+
+	if (letter == 'x' || letter == 'X') //written by Cialan
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Xs in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Xs in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Xs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Xs in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Xs in Rest of World" << std::endl;
+		}
+	}
+
 	if (letter == 'y' || letter == 'Y') // Written by Cialan
 	{
 		if (region == 1)
