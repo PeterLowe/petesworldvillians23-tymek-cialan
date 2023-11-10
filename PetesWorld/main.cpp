@@ -85,6 +85,34 @@ int main()
 			std::cout << "There are no Bs in rest of the world" << std::endl;
 		}
 	}
+
+	if (letter == 'c' || letter == 'C') //written by Tymek
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba" << std::endl;
+		}
+
+		if (region == 2)
+		{
+			std::cout << "Croatia, Cyprus, Czech Republic" << std::endl;
+		}
+
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Republic of Congo, Côte D'ivoire (Ivory Coast)" << std::endl;
+		}
+
+		if (region == 4)
+		{
+			std::cout << "Cambodia, China, Christmas Island" << std::endl;
+		}
+
+		if (region == 5)
+		{
+			std::cout << "Cocos (Keeling) Islands, Cook Islands" << std::endl;
+		}
+	}
 	if (letter == 'y' || letter == 'Y') // Written by Cialan
 	{
 		if (region == 1)
