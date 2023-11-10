@@ -24,7 +24,7 @@ int main()
 	}
 
 
-	std::cout << "Pick a letter from A to C or W to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to D or W to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -116,6 +116,35 @@ int main()
 		}
 	}
 
+	if (letter == 'd' || letter == 'D') //written by Tymek
+	{
+		if (region == 1)
+		{
+			std::cout << "Dominica, Dominican Republic" << std::endl;
+		}
+
+		if (region == 2)
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+
+		if (region == 3)
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+
+		if (region == 4)
+		{
+			std::cout << "There are no Ds in Asia" << std::endl;
+		}
+
+		if (region == 5)
+		{
+			std::cout << "There are no Ds in rest of world" << std::endl;
+		}
+
+	}
+
 	if (letter == 'w' || letter == 'W') //written by Cialan
 	{
 		if (region == 1)
@@ -139,6 +168,7 @@ int main()
 			std::cout << "Wallis and Futuna" << std::endl;
 		}
 	}
+
 	if (letter == 'x' || letter == 'X') //written by Cialan
 	{
 		if (region == 1)
