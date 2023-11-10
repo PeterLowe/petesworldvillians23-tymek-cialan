@@ -136,7 +136,7 @@ int main()
 		}
 		if (region == 5)
 		{
-			std::cout << "Wallis and Futuna"
+			std::cout << "Wallis and Futuna" << std::endl;
 		}
 	}
 	if (letter == 'x' || letter == 'X') //written by Cialan
