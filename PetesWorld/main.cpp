@@ -171,7 +171,7 @@ int main()
 
 		if (region == 5)
 		{
-			std::cout << "" << std::endl;
+			std::cout << "There are no Es in rest of world" << std::endl;
 		}
 	}
 
