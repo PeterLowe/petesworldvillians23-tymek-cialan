@@ -24,7 +24,7 @@ int main()
 	}
 
 
-	std::cout << "Pick a letter from A to C or X to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or W to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -116,6 +116,7 @@ int main()
 		}
 	}
 
+	if (letter == 'w' || letter == 'W') //written by Cialan
 	if (letter == 'x' || letter == 'X') //written by Cialan
 	{
 		if (region == 1)
