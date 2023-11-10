@@ -59,7 +59,7 @@ int main()
 
 
 	if (letter == 'b' || letter == 'B') //written by Tymek
-
+	{
 		if (region == 1)
 		{
 			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil" << std::endl;
@@ -84,7 +84,7 @@ int main()
 		{
 			std::cout << "There are no Bs in rest of the world" << std::endl;
 		}
-
+	}
 	if (letter == 'y' || letter == 'Y') // Written by Cialan
 	{
 		if (region == 1)
