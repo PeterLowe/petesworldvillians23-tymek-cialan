@@ -117,6 +117,28 @@ int main()
 	}
 
 	if (letter == 'w' || letter == 'W') //written by Cialan
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Ws in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Wales" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Western Sahara" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Ws in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Wallis and Futuna"
+		}
+	}
 	if (letter == 'x' || letter == 'X') //written by Cialan
 	{
 		if (region == 1)
